@@ -81,31 +81,26 @@ $contactsData = $dbConnector->getContacts();
     <!-- preloader -->
     <div id="preloader" class="preloader">
         <div class="animation-preloader">
-            <div class="spinner">                
+            <!-- Replace the spinner with the logo image -->
+            <div class="logo-container">
+                <img src="assets/img/logo_manunggal.png" alt="Logo Manunggal">
             </div>
-                <div class="txt-loading">
-                    <span data-text-preloader="T" class="letters-loading">
-                        T
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="C" class="letters-loading">
-                        C
-                    </span>
-                    <span data-text-preloader="H" class="letters-loading">
-                        H
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="X" class="letters-loading">
-                        X
-                    </span>
-                </div>
+            <div class="txt-loading">
+                <!-- Your text loading animation remains unchanged -->
+                <span data-text-preloader="M" class="letters-loading">M</span>
+                <span data-text-preloader="A" class="letters-loading">A</span>
+                <span data-text-preloader="N" class="letters-loading">N</span>
+                <span data-text-preloader="U" class="letters-loading">U</span>
+                <span data-text-preloader="N" class="letters-loading">N</span>
+                <span data-text-preloader="G" class="letters-loading">G</span>
+                <span data-text-preloader="G" class="letters-loading">G</span>
+                <span data-text-preloader="A" class="letters-loading">A</span>
+                <span data-text-preloader="L" class="letters-loading">L</span>
+            </div>
             <p class="text-center">Loading</p>
         </div>
         <div class="loader">
+            <!-- Your loader sections remain unchanged -->
             <div class="row">
                 <div class="col-3 loader-section section-left">
                     <div class="bg"></div>
